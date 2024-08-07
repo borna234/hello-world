@@ -11,3 +11,7 @@ app.get("/", (req, res) => {
 app.get("/data", (req, res) =>{
     res.download("proba.txt");
 });
+
+app.get("/data2", (req, res) =>{
+    res.send("otvorili ste stranicu");
+});
