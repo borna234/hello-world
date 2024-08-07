@@ -15,3 +15,4 @@ app.get("/data", (req, res) =>{
 app.get("/data2", (req, res) =>{
     res.send("otvorili ste stranicu");
 });
+//vfnvjfvfjvf
